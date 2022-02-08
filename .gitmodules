@@ -1,0 +1,4 @@
+[submodule "themes/blow"]
+	path = themes/blow
+	url = git@github.com:cndolo/blow.git
+	branch = main
