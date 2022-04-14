@@ -1,9 +1,9 @@
 +++
 title = "Computer Scientist B.Sc | Amateur Baker"
-date = 2022-01-30
+date = 2022-04-14
 +++
 
-Thanks for wanting to get in-touch - I actually like getting e-post.
+Thanks for wanting to get in-touch!
  
 You can find me on [GitHub](https://github.com/cndolo) or [Linkedin](https://www.linkedin.com/in/cndolo).
 
