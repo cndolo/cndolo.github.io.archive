@@ -14,4 +14,4 @@ In my Bachelor's thesis, I conceptualised a 'reliable' protocol for wireless sen
 
 I am now working towards my Master's degree at the Humboldt University of Berlin and expect to graduate in Mid 2022.
 My studies focus heavily on distributed systems and computer networks.
-I am now working on my thesis which studies incentives in different blockchain-based consensus schemes
+I am currently working on my thesis which studies incentives in Federated Byzantine Agreement Systems - the consensus model behind networks such as Stellar and MobileCoin.
