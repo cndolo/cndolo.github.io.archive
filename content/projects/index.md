@@ -20,7 +20,7 @@ The badges below are clickable links to the projects' respective repositories.
 
 [mc-crawler](https://github.com/wiberlin/mc-crawler) is a crawler for the [MobileCoin](https://mobilecoin.com/) network built in Rust.
 The project begun as a small research project as part of my required coursework for my Master's but I later continued working on the crawler within the scope of my part time job at the Weizenbaum Institute.
-The overall goal of this project was to learn about the budding cryptocurrency, i.e. learn about the network size and structure of the peer-to-peer overlay, which we achieved by first collecting data using a crawler.
+The overall goal of this project was to learn more about the budding cryptocurrency on a technical level, i.e. learn about the network size and structure of the peer-to-peer overlay, which we achieved by first collecting data using a crawler.
 
 The binary crawls the network and communicates with the validators using RPCs provided by the MobileCoin API.
 The crawler provides 2 JSON files with a crawl report comprising data about found nodes such as hostnames, public keys and IP-based geolocation data.
@@ -40,7 +40,7 @@ It is a command line framework written in Rust that performs numerous analyses a
 
 We compiled select fragments of the aforementioned framework to WebAssembly in this project and provide an interactive analysis software.
 This allows users to perform the analyses in their browser without knowledge of the command line or the Rust ecosystem.
-We also maintain a website for [Stellar](https://trudi.weizenbaum-institut.de/stellar_analysis/) and [MobileCoin](https://trudi.weizenbaum-institut.de/mobilecoin_analysis/).
+We also maintain an interactive website for [Stellar](https://trudi.weizenbaum-institut.de/stellar_analysis/) and [MobileCoin](https://trudi.weizenbaum-institut.de/mobilecoin_analysis/).
 
 [Stellarbeat](https://stellarbeat.io) - a prominent website showing the status of the Stellar network - integrated this project into the website enabling users to perform analyses on [stellarbeat.io](https://stellarbeat.io) directly.
 

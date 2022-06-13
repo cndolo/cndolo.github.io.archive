@@ -5,7 +5,7 @@ date = 2022-02-01
 
 *This page summarises my most recent activities - a full CV is available [upon request](/contact)*.
 
-# Student Research Assistant: November 2020 - Present, Weizenbaum Institute
+# Student Research Assistant: November 2019 - Present, Weizenbaum Institute
 I joined [research group 17](https://www.weizenbaum-institut.de/en/research/rg17/) of the Weizenbaum Institute in November 2019 as a research assistant.
 The interdisciplinary group conducts research on topics such as blockchain-based systems and trust in distributed systems.
 
