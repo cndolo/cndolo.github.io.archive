@@ -6,7 +6,7 @@ subtitle: Doctoral Researcher at the <a href='#'>Privacy & Security Group of the
 
 profile:
   align: left
-  image: 
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
