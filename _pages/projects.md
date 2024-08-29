@@ -1,13 +1,25 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Software
+permalink: /software/
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
 horizontal: false
 ---
+
+This page is meant as a brief showcase of some of the software projects I have
+worked on that are not necessarily related to publications.
+I only mention open-source projects available on GitHub - unfortunately none of
+the `Go` projects I have collaborated on is publicly available.
+
+<a href="https://github.com/cndolo">
+  <img style="float: left" style ="padding: 0 1em 0 0;" src="https://github-readme-stats.vercel.app/api/?username=cndolo&show_icons=true&theme=dracula"/>
+</a>
+<a href="https://github.com/cndolo">
+  <img style="float: right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cndolo&layout=compact&theme=dracula"/>
+</a>
+<br>
+<br>
 
 <!-- pages/projects.md -->
 <div class="projects">

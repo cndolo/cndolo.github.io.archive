@@ -1,25 +1,39 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Doctoral Researcher at the <a href='#'>Privacy & Security Group of the TU Dresden</a> in Dresden, Germany.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: 
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am Charmaine (she/her) and I am currently working towards my PhD at the TU
+Dresden.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a computer scientist by profession with special interests in computer
+networks and their security, although I have a background in the analysis of
+complex graphs.
+I hold a Master's from the Humboldt University in Berlin and I am currently
+pursuing a PhD at the Technical University in Dresden.
+My main research themes are the performance, security and resilience of
+blockchain-based P2P networks such as the Lightning network.
+My work tends to follow quantitative and empirical methods such as network
+measurements and simulations, while often applying methods from adjacent fields
+of computer science such as game theory or graph theory.
+In the past, I have worked on some of the more theoretical aspects of
+distributed computing such as incentives in open quorum systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also an amateur baker and often spend my free time trying out new recipes.
+
+As of late winter 2024, I am a certified football referee in the Dresden
+football association and regulalrly officiate local games.
+<br>
+<br>

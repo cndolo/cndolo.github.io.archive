@@ -1,12 +1,27 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: A list of courses I have been involved in.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<b>Supervised theses (as of 08/2024)</b>
 
-Organize your courses by years, topics, or universities, however you like!
+- BA:1
+- MA: 1
+- Various student projects: 5
+
+<b>Summer 24</b>
+- Network Security (MA)
+
+<b>Winter 23/24</b>
+- Operating Systems and Security (BA)
+- Blockchain Technologies (MA)
+
+<b>Summer 23</b>
+- Wireless communication systems (BA)
+
+<b>Winter 22/23</b>
+- Semester project (BA)

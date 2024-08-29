@@ -1,115 +1,138 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{ndolo2023on,
+    author       = {Charmaine Ndolo and
+                    Florian Tschorsch},
+    title        = {On the (Not So) Surprising Impact of Multi-Path Payments on Performance
+                    And Privacy in the Lightning Network},
+    booktitle    = {Computer Security. {ESORICS} 2023 International Workshops - CyberICS,
+                    DPM, CBT, and SECPRE, The Hague, The Netherlands, September 25-29,
+                    2023, Revised Selected Papers, Part {I}},
+    series       = {Lecture Notes in Computer Science},
+    volume       = {14398},
+    pages        = {411--427},
+    publisher    = {Springer},
+    year         = {2023},
+    doi          = {10.1007/978-3-031-54204-6\_25},
+    abbr         = {CBT},
+    abstract     = {The Lightning network (LN) addresses Bitcoin’s scalability
+                    issues by providing fast and private payment processing. In
+                    order to mitigate failures caused by insufficient channel
+                    capacities, LN introduced multi-path payments. To the best
+                    of our knowledge, the effect of multi-path payments remains
+                    unclear. In this paper, we therefore study the impact of
+                    multi-path payments on performance and privacy. We identify
+                    metrics quantifying the aforementioned properties and
+                    utilise them to evaluate the impact of multi-path payments.
+                    To this end, we develop a simulator implementing
+                    pathfinding in LN using single and multi-path payments as
+                    well as various pathfinding algorithms. We find that, while
+                    the success rate of multi-path payments is up to 20%
+                    higher, the impact of multi-path payments on performance
+                    otherwise remains within limits. On the other hand, the
+                    impact on privacy appears to be greater, e.g., multi-path
+                    payments are more likely to encounter an on-path adversary
+                    and the relationship anonymity is more likely to be
+                    compromised by colluding intermediate hops. However,
+                    multi-path payments are less likely to be deanonymised
+                    based on the path lengths.},
+    selected     = {true},
+    pdf          = {https://link.springer.com/chapter/10.1007/978-3-031-54204-6_25},
+    bibtex_show = {true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{ndolo2023fair,
+    author       = {Charmaine Ndolo and
+                    Martin Florian and
+                    Florian Tschorsch},
+    title        = {{Fair Reward Distribution in Federated Byzantine Agreement Systems}},
+    booktitle    = {5th Conference on Blockchain Research {\&} Applications for Innovative
+                    Networks and Services, {BRAINS} 2023, Paris, France, October 11-13,
+                    2023},
+    pages        = {1--8},
+    publisher    = {{IEEE}},
+    year         = {2023},
+    doi          = {10.1109/BRAINS59668.2023.10316929},
+    abbr         = {BRAINS},
+    abstract     = {Federated Byzantine Agreement Systems (FBASs) offer a
+                    solution to consensus in permissionless systems by adapting
+                    the well-studied Byzantine agreement model to
+                    permissionless consensus. Unlike its counterparts in the
+                    context of permissionless consensus, the FBAS system model
+                    does not offer validating nodes protocol-level incentives
+                    although they are entrusted with safeguarding and ensuring
+                    the functionality of the system. Multiple studies have
+                    reported on the small number of active validators in these
+                    systems leading to some concerns about their resilience. To
+                    this end, this paper studies how rewards can be distributed
+                    in FBASs and presents a fair reward distribution function
+                    for FBASs. The challenge is that, on the one hand,
+                    consensus in an FBAS is found jointly between all nodes
+                    and, on the other hand, nodes do not all contribute equally
+                    to this process. We draw on game-theoretic methods to
+                    quantify these contributions bearing the overall health of
+                    the FBAS in mind and present a fair reward distribution
+                    function which we evaluate based on a set of identified
+                    properties.},
+    pdf           = {https://ieeexplore.ieee.org/document/10316929},
+    bibtex_show = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{florian2022sum,
+    title     = {The Sum of Its Parts: Analysis of Federated Byzantine Agreement Systems},
+    author    = {Martin Florian and Sebastian Henningsen and Charmaine Ndolo and Björn Scheuermann},
+    journal   = {Distributed Computing},
+    publisher = {Springer},
+    doi       = {10.1007/s00446-022-00430-0},
+    year      = {2022},
+    abbr      = {DC},
+    abstract  = {Federated Byzantine Agreement Systems (FBASs) are a
+                 fascinating new paradigm in the context of consensus
+                 protocols. Originally proposed for powering the Stellar
+                 payment network, FBASs can instantiate Byzantine quorum
+                 systems without requiring out-of-band agreement on a common
+                 set of validators; every node is free to decide for itself
+                 with whom it requires agreement. Sybil-resistant and yet
+                 energy-efficient consensus protocols can therefore be built
+                 upon FBASs, and the “decentrality” possible with the FBAS
+                 paradigm might be sufficient to reduce the use of
+                 environmentally unsustainable proof-of-work protocols. In this
+                 paper, we first demonstrate how the robustness of individual
+                 FBASs can be determined, by precisely determining their safety
+                 and liveness buffers and therefore enabling a comparison with
+                 threshold-based quorum systems. Using simulations and example
+                 node configuration strategies, we then empirically investigate
+                 the hypothesis that while FBASs can be bootstrapped in a
+                 bottom-up fashion from individual preferences, strategic
+                 considerations should additionally be applied by node
+                 operators in order to arrive at FBASs that are robust and
+                 amenable to monitoring. Finally, we investigate the reported
+                 “open-membership” property of FBASs. We observe that an often
+                 small group of nodes is exclusively relevant for determining
+                 liveness buffers and prove that membership in this top tier is
+                 conditional on the approval by current top tier nodes if
+                 maintaining safety is a core requirement.},
+    pdf       = {https://link.springer.com/article/10.1007/s00446-022-00430-0},
+    bibtex_show = {true},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@misc{ndolo2021crawling,
+    author    = {Charmaine Ndolo and
+                 Sebastian A. Henningsen and
+                 Martin Florian},
+    title     = {{Crawling the MobileCoin Quorum System}},
+    year      = {2021},
+    url       = {https://arxiv.org/abs/2111.12364},
+    abbr      = {arXiv},
+    abstract  = {We continuously crawl the young MobileCoin network,
+                 uncovering the quorum configurations of core nodes and the
+                 quorum system resulting from these configurations. This report
+                 discusses our crawl methodology, encountered challenges, and
+                 our current empirical results. We find that the MobileCoin
+                 quorum system currently comprises of 7 organisations
+                 controlling a total of 10 validator nodes. Current quorum set
+                 configurations prioritise safety over liveness. At the time of
+                 writing, one of the involved organisations is technically able
+                 to block the approval of new blocks, as is the case for one of
+                 the (two) ISPs employed by crawled nodes.},
+    pdf       = {https://arxiv.org/abs/2111.12364},
+    bibtex_show = {true},
 }
