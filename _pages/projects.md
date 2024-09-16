@@ -13,10 +13,10 @@ I only mention open-source projects available on GitHub - unfortunately none of
 the `Go` projects I have collaborated on is publicly available.
 
 <a href="https://github.com/cndolo">
-  <img style="float: left" style ="padding: 0 1em 0 0;" src="https://github-readme-stats.vercel.app/api/?username=cndolo&show_icons=true&theme=dracula"/>
+  <img style="float: left" style ="padding: 0 1em 0 0;" src="https://github-readme-stats.vercel.app/api/?username=cndolo&show_icons=true&exclude_repo=cndolo.github.io"/>
 </a>
 <a href="https://github.com/cndolo">
-  <img style="float: right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cndolo&layout=compact&theme=dracula"/>
+  <img style="float: right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cndolo&layout=compact&exclude_repo=cndolo.github.io"/>
 </a>
 <br>
 <br>
