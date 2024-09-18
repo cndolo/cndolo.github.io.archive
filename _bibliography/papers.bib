@@ -1,3 +1,45 @@
+@inproceedings{ndolo2024payment,
+    author    = {Ndolo, Charmaine and Tschorsch, Florian},
+    title     = {{Payment Censorship in the Lightning Network Despite Encrypted Communication}},
+    booktitle = {6th Conference on Advances in Financial Technologies (AFT 2024)},
+    pages =	{12:1--12:24},
+    series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+    ISBN =	{978-3-95977-345-4},
+    ISSN =	{1868-8969},
+    year =	{2024},
+    volume =	{316},
+    publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+    URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12},
+    doi    	= {10.4230/LIPIcs.AFT.2024.12},
+    abbr      = {AFT},
+    abstract  = { The Lightning network (LN) offers a solution to Bitcoin’s
+                 scalability limitations by providing fast and private off-chain
+                 payments. In addition to the LN’s long known application-level
+                 centralisation, recent work has highlighted its centralisation
+                 at the network-level which makes it vulnerable to attacks on
+                 privacy by malicious actors. In this work, we explore the LN’s
+                 susceptibility to censorship by a network-level actor such as a
+                 malicious autonomous system. We show that a network-level actor
+                 can identify and censor all payments routed via their network by
+                 just examining the packet headers. Our results indicate that it
+                 is viable to accurately identify LN messages despite the fact
+                 that all inter-peer communication is end-to-end encrypted.
+                 Additionally, we describe how a network-level observer can
+                 determine a node’s role in a payment path based on timing,
+                 direction of flow and message type, and demonstrate the
+                 approach’s feasibility using experiments in a live instance of
+                 the network. Simulations of the attack on a snapshot of the
+                 Lightning mainnet suggest that the impact of the attack varies
+                 from mild to potentially dramatic depending on the adversary and
+                 type of payments that are censored. We analyse countermeasures
+                 the network can implement and come to the conclusion that an
+                 adequate solution comprises constant message sizes as well as
+                 dummy traffic.},
+    selected    = {true},
+    pdf         = {https://drops.dagstuhl.de/storage/00lipics/lipics-vol316-aft2024/LIPIcs.AFT.2024.12/LIPIcs.AFT.2024.12.pdf},
+    bibtex_show = {true},
+}
+
 @inproceedings{ndolo2023on,
     author       = {Charmaine Ndolo and
                     Florian Tschorsch},
@@ -34,7 +76,6 @@
                     compromised by colluding intermediate hops. However,
                     multi-path payments are less likely to be deanonymised
                     based on the path lengths.},
-    selected     = {true},
     pdf          = {https://link.springer.com/chapter/10.1007/978-3-031-54204-6_25},
     bibtex_show = {true},
 }

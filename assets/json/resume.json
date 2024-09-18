@@ -64,6 +64,11 @@
   ],
   "publications": [
     {
+        "name": "Payment Censorship in the Lightning Network Despite Encrypted Communication",
+        "releaseDate": "2024",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12"
+    },
+    {
         "name": "Fair Reward Distribution in Federated Byzantine Agreement Systems",
         "releaseDate": "2023",
         "url": "https://doi.org/10.1109/BRAINS59668.2023.10316929"
