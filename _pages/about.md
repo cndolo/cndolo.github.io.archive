@@ -37,7 +37,7 @@ group](https://www.informatik.hu-berlin.de/de/forschung/gebiete/macsy).
 
 I am also an amateur baker and often spend my free time trying out new recipes.
 
-As of late winter 2024, I am a certified football referee in the Dresden
-football association and regulalrly officiate local games.
+As of early 2024, I am a certified football referee in the Dresden football
+association and regularly officiate local games.
 <br>
 <br>
