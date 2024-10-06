@@ -7,8 +7,8 @@ nav_order: 4
 horizontal: false
 ---
 
-This page is meant as a brief showcase of some of the software projects I have
-worked on that are not necessarily related to publications.
+This page is intended as a brief showcase of some of the software projects I
+have worked on that are not necessarily related to publications.
 I only mention open-source projects available on GitHub - unfortunately none of
 the `Go` projects I have collaborated on is publicly available.
 
